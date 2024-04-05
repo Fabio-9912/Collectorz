@@ -1,0 +1,18 @@
+@import 'bootstrap';
+@import './style.css';
+@import './animate/animate.css';
+@import './login.css';
+@import './card.css';
+@import 'font-awesome';
+/* @import './gallery.css'; */
+@import './contact.css';
+
+@import './lastAnnouncement.css';
+@import './sliderRevisor.css';
+
+/* @import 'bootstrap-icons';
+@import 'font-awesome';
+ */
+/* * {
+    font-family: Poppins, sans-serif !important;
+} */

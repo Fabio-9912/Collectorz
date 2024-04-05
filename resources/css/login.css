@@ -1,0 +1,224 @@
+.login-dark {
+    height: 700px;
+    background: linear-gradient(
+            rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)
+        ),
+        /* url(/storage/app/public/images/login.jpg); */
+            url(/storage/app/public/images/log.jpeg);
+    background-size: cover;
+    position: relative;
+}
+
+.register-dark {
+    height: 920px;
+    background: linear-gradient(
+            rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)
+        ),
+        url(/storage/app/public/images/register_bg.jpeg);
+    background-size: cover;
+    position: relative;
+}
+.addAnn {
+    height: 920px;
+    background: #4B6C8B;
+    background-size: cover;
+    position: relative;
+}
+
+.login-dark form,
+.register-dark form {
+    max-width: 320px;
+    max-height: fit-content;
+    width: 100%;
+    background-color: #887a6f;
+    padding: 40px;
+    border-radius: 4px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    box-shadow: 3px 3px 4px rgba(94, 54, 54, 0.2);
+    border-radius: 2%;
+}
+
+.login-dark .illustration,
+.register-dark .illustration {
+    text-align: center;
+    padding: 15px 0 20px;
+    font-size: 100px;
+    color: #2980ef;
+}
+
+.login-dark form .form-control,
+.register-dark form .form-control {
+    background: none;
+    border: none;
+    border: 1px solid #434a52;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+}
+
+.login-dark form .btn-primary,
+.register-dark form .btn-primary {
+    background: #0c07038a;
+    border: none;
+    border-radius: 4px;
+    padding: 11px;
+    box-shadow: none;
+    margin-top: 26px;
+    text-shadow: none;
+    outline: none;
+}
+
+.login-dark form .btn-primary:hover,
+.login-dark form .btn-primary:active,
+.register-dark form .btn-primary:hover,
+.register-dark form .btn-primary:active {
+    background: #070300;
+    outline: none;
+}
+
+.login-dark form .forgot,
+.register-dark form .forgot {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    color: #000305;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+.login-dark form .forgot:hover,
+.login-dark form .forgot:active,
+.register-dark form .forgot:hover,
+.register-dark form .forgot:active {
+    opacity: 1;
+    text-decoration: none;
+}
+
+.login-dark form .btn-primary:active,
+.register-dark form .btn-primary:active {
+    transform: translateY(1px);
+}
+
+form {
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+        rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+        rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+        rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+        rgba(0, 0, 0, 0.09) 0px 32px 16px !important;
+}
+
+.message {
+    color: #e95d6b;
+}
+
+textarea {
+    background-color: #1e2833;
+    width: 100%;
+    color: white;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+textarea:focus {
+    border: 1px solid #6dadf5 !important;
+    box-shadow: 1px 1px 10px #6dadf5 !important;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.announcement {
+    max-width: 100% !important;
+    max-height: 90%;
+}
+
+.category {
+    transition: 0.3s;
+}
+
+.category:hover {
+    background-color: rgba(0, 0, 0, 0.39) !important;
+    transition: 0.3s;
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+.form-group {
+    position: relative;
+}
+label {
+    position: absolute;
+    top: -1.7ex;
+    z-index: 10;
+    left: 0.5em;
+    padding: 0;
+    margin-left: 10px;
+    background-color: #887a6f;
+}
+
+.textareaLabel {
+    margin-bottom: 0;
+    height: 19.5px;
+}
+
+input select {
+    border-radius: 5px !important;
+    cursor:default!important;
+}
+
+input:focus {
+    border: 1px solid #6dadf5 !important;
+    box-shadow: 1px 1px 10px #6dadf5 !important;
+}
+
+#myInput {
+    position: relative;
+}
+
+.eye {
+    position: absolute;
+    right: 2%;
+    top: 25%;
+}
+
+.titleWork {
+    text-shadow: 1px 1px 10px#6dadf5;
+    animation: beat 0.5s infinite alternate;
+    transform-origin: center;
+}
+@keyframes beat {
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.google,
+.linkedin,
+.amazon {
+    width: 25%;
+    border-radius: 50%;
+    border: 2px solid rgba(1, 10, 22, 0.308);
+    transition: 0.4s;
+}
+
+.facebook {
+    width: 25%;
+    transition: 0.4s;
+}
+
+.google:hover,
+.facebook:hover,
+.linkedin:hover,
+.amazon:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
